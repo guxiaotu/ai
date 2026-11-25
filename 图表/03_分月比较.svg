@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1000" height="500" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>03_分月比较</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1000" height="500"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-500)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1000" height="500" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="38" y="460" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-weight: 700; font-size: 28px;fill: rgb(9%,12%,17%); stroke:none;" transform="translate(0,920) scale(1,-1)">分月比较图片标记与低评分比例</text>
+			<text x="38" y="428" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 18px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,856) scale(1,-1)">各月方向一致；首尾月时间覆盖不完整，9 月图片标记组仅 6 条</text>
+			<path d="M 95,126 L 935,126 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="56.4296875" y="120.0" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 17px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,240) scale(1,-1)">0%</text>
+			<path d="M 95,176 L 935,176 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="46.97509765625" y="170.0" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 17px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,340) scale(1,-1)">20%</text>
+			<path d="M 95,226 L 935,226 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="46.97509765625" y="220.0" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 17px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,440) scale(1,-1)">40%</text>
+			<path d="M 95,276 L 935,276 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="46.97509765625" y="270.0" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 17px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,540) scale(1,-1)">60%</text>
+			<path d="M 95,326 L 935,326 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="46.97509765625" y="320.0" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 17px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,640) scale(1,-1)">80%</text>
+			<path d="M 95,376 L 935,376 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="37.5205078125" y="370.0" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 17px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,740) scale(1,-1)">100%</text>
+			<path d="M 95,126 L 935,126 Z" style="stroke: rgb(32%,38%,44%); stroke-linecap: butt; stroke-width: 1;"/>
+			<circle cx="640" cy="400" r="5" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(78%,40%,13%); fill-rule: evenodd;"/>
+			<text x="654" y="394" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 17px;fill: rgb(9%,12%,17%); stroke:none;" transform="translate(0,788) scale(1,-1)">有图片标记</text>
+			<circle cx="812" cy="400" r="5" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(14%,38%,65%); fill-rule: evenodd;"/>
+			<text x="826" y="394" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 17px;fill: rgb(9%,12%,17%); stroke:none;" transform="translate(0,788) scale(1,-1)">未标记图片</text>
+			<path d="M 167,214.807229 L 167,331.725731 Z" style="stroke: rgb(78%,40%,13%); stroke-linecap: butt; stroke-width: 2.8;"/>
+			<path d="M 159,214.807229 L 175,214.807229 Z" style="stroke: rgb(78%,40%,13%); stroke-linecap: butt; stroke-width: 2.8;"/>
+			<path d="M 159,331.725731 L 175,331.725731 Z" style="stroke: rgb(78%,40%,13%); stroke-linecap: butt; stroke-width: 2.8;"/>
+			<circle cx="167" cy="279.84615384615387" r="6" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(78%,40%,13%); fill-rule: evenodd;"/>
+			<text x="106.79736328125" y="274.84615384615387" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 17px;fill: rgb(9%,12%,17%); stroke:none;" transform="translate(0,549) scale(1,-1)">61.5%</text>
+			<path d="M 221,201.055043 L 221,254.557867 Z" style="stroke: rgb(14%,38%,65%); stroke-linecap: butt; stroke-width: 2.8;"/>
+			<path d="M 213,201.055043 L 229,201.055043 Z" style="stroke: rgb(14%,38%,65%); stroke-linecap: butt; stroke-width: 2.8;"/>
+			<path d="M 213,254.557867 L 229,254.557867 Z" style="stroke: rgb(14%,38%,65%); stroke-linecap: butt; stroke-width: 2.8;"/>
+			<circle cx="221" cy="226.64935064935065" r="6" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(14%,38%,65%); fill-rule: evenodd;"/>
+			<text x="233" y="221.64935064935065" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 17px;fill: rgb(9%,12%,17%); stroke:none;" transform="translate(0,443) scale(1,-1)">40.3%</text>
+			<text x="174.7431640625" y="95" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 21px;fill: rgb(9%,12%,17%); stroke:none;" transform="translate(0,190) scale(1,-1)">6 月</text>
+			<text x="153.591796875" y="70" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 17px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,140) scale(1,-1)">n = 13 / 77</text>
+			<path d="M 386,260.331661 L 386,315.777484 Z" style="stroke: rgb(78%,40%,13%); stroke-linecap: butt; stroke-width: 2.8;"/>
+			<path d="M 378,260.331661 L 394,260.331661 Z" style="stroke: rgb(78%,40%,13%); stroke-linecap: butt; stroke-width: 2.8;"/>
+			<path d="M 378,315.777484 L 394,315.777484 Z" style="stroke: rgb(78%,40%,13%); stroke-linecap: butt; stroke-width: 2.8;"/>
+			<circle cx="386" cy="290.17910447761193" r="6" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(78%,40%,13%); fill-rule: evenodd;"/>
+			<text x="325.79736328125" y="285.17910447761193" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 17px;fill: rgb(9%,12%,17%); stroke:none;" transform="translate(0,570) scale(1,-1)">65.7%</text>
+			<path d="M 440,195.771754 L 440,219.013305 Z" style="stroke: rgb(14%,38%,65%); stroke-linecap: butt; stroke-width: 2.8;"/>
+			<path d="M 432,195.771754 L 448,195.771754 Z" style="stroke: rgb(14%,38%,65%); stroke-linecap: butt; stroke-width: 2.8;"/>
+			<path d="M 432,219.013305 L 448,219.013305 Z" style="stroke: rgb(14%,38%,65%); stroke-linecap: butt; stroke-width: 2.8;"/>
+			<circle cx="440" cy="206.95854922279793" r="6" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(14%,38%,65%); fill-rule: evenodd;"/>
+			<text x="452" y="201.95854922279793" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 17px;fill: rgb(9%,12%,17%); stroke:none;" transform="translate(0,403) scale(1,-1)">32.4%</text>
+			<text x="393.7431640625" y="95" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 21px;fill: rgb(9%,12%,17%); stroke:none;" transform="translate(0,190) scale(1,-1)">7 月</text>
+			<text x="367.864501953125" y="70" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 17px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,140) scale(1,-1)">n = 67 / 386</text>
+			<path d="M 605,244.846955 L 605,300.578174 Z" style="stroke: rgb(78%,40%,13%); stroke-linecap: butt; stroke-width: 2.8;"/>
+			<path d="M 597,244.846955 L 613,244.846955 Z" style="stroke: rgb(78%,40%,13%); stroke-linecap: butt; stroke-width: 2.8;"/>
+			<path d="M 597,300.578174 L 613,300.578174 Z" style="stroke: rgb(78%,40%,13%); stroke-linecap: butt; stroke-width: 2.8;"/>
+			<circle cx="605" cy="273.88732394366195" r="6" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(78%,40%,13%); fill-rule: evenodd;"/>
+			<text x="544.79736328125" y="268.88732394366195" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 17px;fill: rgb(9%,12%,17%); stroke:none;" transform="translate(0,537) scale(1,-1)">59.2%</text>
+			<path d="M 659,187.708032 L 659,208.179338 Z" style="stroke: rgb(14%,38%,65%); stroke-linecap: butt; stroke-width: 2.8;"/>
+			<path d="M 651,187.708032 L 667,187.708032 Z" style="stroke: rgb(14%,38%,65%); stroke-linecap: butt; stroke-width: 2.8;"/>
+			<path d="M 651,208.179338 L 667,208.179338 Z" style="stroke: rgb(14%,38%,65%); stroke-linecap: butt; stroke-width: 2.8;"/>
+			<circle cx="659" cy="197.50537634408602" r="6" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(14%,38%,65%); fill-rule: evenodd;"/>
+			<text x="671" y="192.50537634408602" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 17px;fill: rgb(9%,12%,17%); stroke:none;" transform="translate(0,385) scale(1,-1)">28.6%</text>
+			<text x="612.7431640625" y="95" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 21px;fill: rgb(9%,12%,17%); stroke:none;" transform="translate(0,190) scale(1,-1)">8 月</text>
+			<text x="586.864501953125" y="70" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 17px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,140) scale(1,-1)">n = 71 / 465</text>
+			<path d="M 824,235.124294 L 824,368.486658 Z" style="stroke: rgb(78%,40%,13%); stroke-linecap: butt; stroke-width: 2.8;"/>
+			<path d="M 816,235.124294 L 832,235.124294 Z" style="stroke: rgb(78%,40%,13%); stroke-linecap: butt; stroke-width: 2.8;"/>
+			<path d="M 816,368.486658 L 832,368.486658 Z" style="stroke: rgb(78%,40%,13%); stroke-linecap: butt; stroke-width: 2.8;"/>
+			<circle cx="824" cy="334.33333333333337" r="6" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(78%,40%,13%); fill-rule: evenodd;"/>
+			<text x="763.79736328125" y="329.33333333333337" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 17px;fill: rgb(9%,12%,17%); stroke:none;" transform="translate(0,658) scale(1,-1)">83.3%</text>
+			<path d="M 878,155.754166 L 878,192.35227 Z" style="stroke: rgb(14%,38%,65%); stroke-linecap: butt; stroke-width: 2.8;"/>
+			<path d="M 870,155.754166 L 886,155.754166 Z" style="stroke: rgb(14%,38%,65%); stroke-linecap: butt; stroke-width: 2.8;"/>
+			<path d="M 870,192.35227 L 886,192.35227 Z" style="stroke: rgb(14%,38%,65%); stroke-linecap: butt; stroke-width: 2.8;"/>
+			<circle cx="878" cy="171.23809523809524" r="6" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(14%,38%,65%); fill-rule: evenodd;"/>
+			<text x="890" y="166.23809523809524" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 17px;fill: rgb(9%,12%,17%); stroke:none;" transform="translate(0,332) scale(1,-1)">18.1%</text>
+			<text x="831.7431640625" y="95" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 21px;fill: rgb(9%,12%,17%); stroke:none;" transform="translate(0,190) scale(1,-1)">9 月</text>
+			<text x="810.591796875" y="70" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 17px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,140) scale(1,-1)">n = 6 / 105</text>
+			<path d="M 38,53 L 962,53 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="38" y="30" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 15px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,60) scale(1,-1)">点与竖线：低评分比例及 Wilson 95% 区间；n 顺序为有图片标记 / 未标记图片。</text>
+			<text x="38" y="10" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 15px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,20) scale(1,-1)">数据覆盖 2026-06-02—2026-09-11；分月结果用于探索性稳健性检查。</text>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1000" height="500" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>04_低星主题</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1000" height="500"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-500)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1000" height="500" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="38" y="460" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-weight: 700; font-size: 28px;fill: rgb(9%,12%,17%); stroke:none;" transform="translate(0,920) scale(1,-1)">低评分评论中的预设主题命中率</text>
+			<text x="38" y="428" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 18px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,856) scale(1,-1)">分母为 407 条低评分评论；结果来自五条预设的负向关键词规则</text>
+			<path d="M 242,95 L 242,384 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="229.71484375" y="70" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 17px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,140) scale(1,-1)">0%</text>
+			<path d="M 341.666667,95 L 341.666667,384 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="329.38151041666663" y="70" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 17px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,140) scale(1,-1)">5%</text>
+			<path d="M 441.333333,95 L 441.333333,384 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="424.3208821614583" y="70" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 17px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,140) scale(1,-1)">10%</text>
+			<path d="M 541,95 L 541,384 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="523.987548828125" y="70" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 17px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,140) scale(1,-1)">15%</text>
+			<path d="M 640.666667,95 L 640.666667,384 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="623.6542154947916" y="70" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 17px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,140) scale(1,-1)">20%</text>
+			<path d="M 740.333333,95 L 740.333333,384 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="723.3208821614584" y="70" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 17px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,140) scale(1,-1)">25%</text>
+			<path d="M 840,95 L 840,384 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="822.987548828125" y="70" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 17px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,140) scale(1,-1)">30%</text>
+			<path d="M 242,95 L 840,95 Z" style="stroke: rgb(32%,38%,44%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="96.99999999999999" y="349" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 21px;fill: rgb(9%,12%,17%); stroke:none;" transform="translate(0,698) scale(1,-1)">做工与耐用性</text>
+			<rect x="242" y="340" width="524.045864045864" height="30" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,38%,65%); fill-rule: evenodd;"/>
+			<text x="779.045864045864" y="349" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 19px;fill: rgb(9%,12%,17%); stroke:none;" transform="translate(0,698) scale(1,-1)">26.29%（107 条）</text>
+			<text x="96.99999999999999" y="296" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 21px;fill: rgb(9%,12%,17%); stroke:none;" transform="translate(0,592) scale(1,-1)">磁性部件脱落</text>
+			<rect x="242" y="287" width="181.21212121212125" height="30" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,38%,65%); fill-rule: evenodd;"/>
+			<text x="436.21212121212125" y="296" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 19px;fill: rgb(9%,12%,17%); stroke:none;" transform="translate(0,592) scale(1,-1)">9.09%（37 条）</text>
+			<text x="139.0" y="243" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 21px;fill: rgb(9%,12%,17%); stroke:none;" transform="translate(0,486) scale(1,-1)">充电问题</text>
+			<rect x="242" y="234" width="142.03112203112204" height="30" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,38%,65%); fill-rule: evenodd;"/>
+			<text x="397.03112203112204" y="243" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 19px;fill: rgb(9%,12%,17%); stroke:none;" transform="translate(0,486) scale(1,-1)">7.13%（29 条）</text>
+			<text x="139.0" y="190" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 21px;fill: rgb(9%,12%,17%); stroke:none;" transform="translate(0,380) scale(1,-1)">颜色不符</text>
+			<rect x="242" y="181" width="137.13349713349714" height="30" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,38%,65%); fill-rule: evenodd;"/>
+			<text x="392.13349713349714" y="190" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 19px;fill: rgb(9%,12%,17%); stroke:none;" transform="translate(0,380) scale(1,-1)">6.88%（28 条）</text>
+			<text x="139.0" y="137" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 21px;fill: rgb(9%,12%,17%); stroke:none;" transform="translate(0,274) scale(1,-1)">表面打滑</text>
+			<rect x="242" y="128" width="73.46437346437347" height="30" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(14%,38%,65%); fill-rule: evenodd;"/>
+			<text x="328.46437346437347" y="137" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 19px;fill: rgb(9%,12%,17%); stroke:none;" transform="translate(0,274) scale(1,-1)">3.69%（15 条）</text>
+			<path d="M 38,53 L 962,53 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="38" y="30" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 15px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,60) scale(1,-1)">一条评论可命中多个主题；五类合计不代表互斥构成，未命中不代表没有问题。</text>
+			<text x="38" y="10" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 15px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,20) scale(1,-1)">规则命中尚未经过独立人工验证；命中标签不能直接视为已确认的投诉原因。</text>
+		</g>
+	</g>
+</svg>

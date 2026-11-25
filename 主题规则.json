@@ -1,0 +1,437 @@
+{
+  "version": 1,
+  "description": "规则匹配统计；同一条评论可命中多个主题，各主题占比不要求相加为100%。不推断性别、真实年龄或因果关系。",
+  "groups": [
+    {
+      "id": "positive",
+      "title": "好评",
+      "color": "#09b773",
+      "population": "high",
+      "rules": [
+        {
+          "id": "positive_1",
+          "label": "磁力牢固",
+          "all_of": [
+            "mag\\s?safe|magnet|磁铁|磁力|磁性|磁吸|吸力",
+            "\\bstrong\\b|powerful|secure|holds? (?:very )?well|牢固|强劲|磁力强|吸力强"
+          ],
+          "exclude": [
+            "not.{0,12}strong|isn.t.{0,12}strong|wish|stronger|不牢|不强|希望|更强"
+          ],
+          "description": "高星评论中，同句出现磁性部件与牢固、强磁或稳定吸附等描述。"
+        },
+        {
+          "id": "positive_2",
+          "label": "贴合与设计",
+          "all_of": [
+            "fit|slim|sleek|button|贴合|合身|纤薄|轻薄|按钮",
+            "perfect|great|well|good|love|nice|easy|完美|很好|很棒|喜欢|合适|良好"
+          ],
+          "exclude": [
+            "doesn.t fit|not fit|不适合|不合适|不合身"
+          ],
+          "description": "高星评论中，提及贴合、厚度或按键，并出现正向评价词。"
+        },
+        {
+          "id": "positive_3",
+          "label": "美学吸引力",
+          "all_of": [
+            "\\bcolou?r|\\bpurple\\b|\\bpretty\\b|\\bbeautiful\\b|\\blooks\\b|颜[色值]|紫色|外观|漂亮|美观|透明",
+            "love|like|pretty|beautiful|great|nice|gorgeous|喜欢|漂亮|美观|好看|很棒"
+          ],
+          "exclude": [],
+          "description": "高星评论中，对颜色、透明度或外观给出正向描述。"
+        },
+        {
+          "id": "positive_4",
+          "label": "耐久性",
+          "all_of": [
+            "\\bdurab|\\blast|\\bprotect|\\bsturdy|\\bsolid|耐用|结实|坚固|保护",
+            "great|good|well|strong|durab|sturdy|solid|耐用|结实|坚固|很好|很棒"
+          ],
+          "exclude": [
+            "not durable|not sturdy|not last|不耐用|不结实"
+          ],
+          "description": "高星评论中，出现耐久、结实或保护性能相关正向措辞。"
+        },
+        {
+          "id": "positive_5",
+          "label": "物有所值",
+          "all_of": [
+            "price|money|value|afford|cheap|价格|价钱|便宜|价值|性价比|物有所值",
+            "great|good|well|worth|afford|reasonable|love|值|实惠|合理|划算"
+          ],
+          "exclude": [
+            "not worth|waste|不值|浪费"
+          ],
+          "description": "高星评论中，价格或价值与划算、值得等正向词语共同出现。"
+        }
+      ]
+    },
+    {
+      "id": "negative",
+      "title": "差评",
+      "color": "#ff6c64",
+      "population": "low",
+      "rules": [
+        {
+          "id": "negative_1",
+          "label": "磁性部件脱落",
+          "all_of": [
+            "mag\\s?safe|magnet|磁铁|磁力|磁性|磁吸|吸力",
+            "brok|break|detach|fall(?:s|ing)? (?:off|apart)|fell (?:off|apart)|came (?:off|apart)|come(?:s)? (?:off|apart)|separat|split|裂|断|脱落|掉落|散架|分离"
+          ],
+          "exclude": [],
+          "description": "低星评论中，同句提及磁性部件与断裂、分离或脱落。"
+        },
+        {
+          "id": "negative_2",
+          "label": "充电问题",
+          "all_of": [
+            "charg|充电",
+            "slow|not |won.t|doesn.t|fail|stop|hot|heat|issue|problem|interfer|无法|不能|失败|过热|慢|问题|停止"
+          ],
+          "exclude": [],
+          "description": "低星评论中，充电与失败、缓慢、过热或不稳定等问题词共同出现。"
+        },
+        {
+          "id": "negative_3",
+          "label": "表面打滑",
+          "all_of": [
+            "slippery|slick|slips? (?:out|off)|滑手|光滑|滑落|太滑|滑溜"
+          ],
+          "exclude": [],
+          "description": "低星评论中，明确提到表面滑、滑手或从手中滑落。"
+        },
+        {
+          "id": "negative_4",
+          "label": "做工与耐用性",
+          "all_of": [
+            "peel|crack|brok|break|fall apart|fell apart|split|cheaply|flimsy|poor quality|剥落|开裂|断裂|散架|劣质|做工|质量差"
+          ],
+          "exclude": [],
+          "description": "低星评论中，出现开裂、剥落、脆弱或做工质量问题词。"
+        },
+        {
+          "id": "negative_5",
+          "label": "颜色不符",
+          "all_of": [
+            "colou?r|shade|颜色|色差",
+            "differ|not |wasn.t|match|wrong|lighter|darker|expect|不像|不同|不符|不匹配|更浅|更深|预期"
+          ],
+          "exclude": [],
+          "description": "低星评论中，对颜色差异、深浅或与预期不符作出描述。"
+        }
+      ]
+    },
+    {
+      "id": "motivation",
+      "title": "购买动机",
+      "color": "#7794ff",
+      "population": "text",
+      "rules": [
+        {
+          "id": "motivation_1",
+          "label": "价格实惠",
+          "all_of": [
+            "\\bbought|\\bbuy|\\bpurchas|\\bchose|\\bchoose|looking for|wanted|买|购买|选择|选购",
+            "price|afford|cheap|value|cost|价格|便宜|实惠|性价比|划算"
+          ],
+          "exclude": [],
+          "description": "购买或选择相关语句同时提到价格、成本或性价比。"
+        },
+        {
+          "id": "motivation_2",
+          "label": "MagSafe 兼容性",
+          "all_of": [
+            "\\bbought|\\bbuy|\\bpurchas|\\bchose|\\bchoose|looking for|wanted|买|购买|选择|选购",
+            "mag\\s?safe|magnet|磁铁|磁力|磁性|磁吸|吸力"
+          ],
+          "exclude": [],
+          "description": "购买或选择相关语句同时提到 MagSafe 或磁性配件。"
+        },
+        {
+          "id": "motivation_3",
+          "label": "审美偏好",
+          "all_of": [
+            "\\bbought|\\bbuy|\\bpurchas|\\bchose|\\bchoose|looking for|wanted|买|购买|选择|选购",
+            "\\bcolou?r|\\bpurple\\b|\\bpretty\\b|\\bbeautiful\\b|\\blooks\\b|颜[色值]|紫色|外观|漂亮|美观|透明"
+          ],
+          "exclude": [],
+          "description": "购买或选择相关语句同时提到颜色、外观或审美偏好。"
+        },
+        {
+          "id": "motivation_4",
+          "label": "替换需求",
+          "all_of": [
+            "replac|old case|previous case|new case|替换|更换|旧.{0,5}壳|换新"
+          ],
+          "exclude": [],
+          "description": "评论明确提及更换保护壳、旧壳或替代产品。"
+        },
+        {
+          "id": "motivation_5",
+          "label": "礼物购买",
+          "all_of": [
+            "\\bgift|\\bpresent\\b|礼物|送给|赠送"
+          ],
+          "exclude": [],
+          "description": "评论明确出现礼物、赠送或送给他人的措辞。"
+        }
+      ]
+    },
+    {
+      "id": "scenario",
+      "title": "使用场景",
+      "color": "#7794ff",
+      "population": "text",
+      "rules": [
+        {
+          "id": "scenario_1",
+          "label": "日常使用",
+          "all_of": [
+            "every\\s?day|daily|day.to.day|pocket|日常|每天|口袋"
+          ],
+          "exclude": [],
+          "description": "评论提及日常使用、每天使用或放入口袋。"
+        },
+        {
+          "id": "scenario_2",
+          "label": "车载使用",
+          "all_of": [
+            "\\bcar\\b|\\bvehicle|\\bdriv|dashboard|车载|汽车|开车|驾驶"
+          ],
+          "exclude": [],
+          "description": "评论明确提到汽车、驾驶或车载安装。"
+        },
+        {
+          "id": "scenario_3",
+          "label": "跌落防护",
+          "all_of": [
+            "\\bdrop(?:ped|s|ping)?\\b|\\bfall|\\bfell\\b|跌落|掉落|摔|防摔"
+          ],
+          "exclude": [],
+          "description": "评论提及跌落、摔落或防摔情境；并不自动代表防护成功。"
+        },
+        {
+          "id": "scenario_4",
+          "label": "无线充电",
+          "all_of": [
+            "wireless|mag\\s?safe|无线|磁吸",
+            "charg|充电"
+          ],
+          "exclude": [],
+          "description": "同一句评论同时涉及无线或 MagSafe 与充电。"
+        },
+        {
+          "id": "scenario_5",
+          "label": "礼物购买",
+          "all_of": [
+            "\\bgift|\\bpresent\\b|礼物|送给|赠送"
+          ],
+          "exclude": [],
+          "description": "评论明确提及把产品作为礼物购买或赠送。"
+        }
+      ]
+    },
+    {
+      "id": "unmet",
+      "title": "未被满足的需求",
+      "color": "#7794ff",
+      "population": "text",
+      "rules": [
+        {
+          "id": "unmet_1",
+          "label": "更强磁力",
+          "all_of": [
+            "mag\\s?safe|magnet|磁铁|磁力|磁性|磁吸|吸力",
+            "\\bwish\\b|\\bhope\\b|would prefer|would like|could be|should (?:be|have|last|work)|needs? (?:to|more|better)|would be.{0,40}\\bif\\b|希望|应该|期待|改进|需要更",
+            "stronger|better|weak|not.{0,15}strong|更强|弱|不够|吸力|磁力"
+          ],
+          "exclude": [],
+          "description": "磁力相关句中同时出现明确改进措辞和更强、更好或弱磁描述。"
+        },
+        {
+          "id": "unmet_2",
+          "label": "更好防滑性",
+          "all_of": [
+            "grip|slip|slick|texture|防滑|抓握|握持|太滑|纹理",
+            "\\bwish\\b|\\bhope\\b|would prefer|would like|could be|should (?:be|have|last|work)|needs? (?:to|more|better)|would be.{0,40}\\bif\\b|希望|应该|期待|改进|需要更"
+          ],
+          "exclude": [],
+          "description": "明确诉求或改进措辞与抓握、防滑或表面纹理同时出现。"
+        },
+        {
+          "id": "unmet_3",
+          "label": "更稳定的无线充电",
+          "all_of": [
+            "charg|充电",
+            "\\bwish\\b|\\bhope\\b|would prefer|would like|could be|should (?:be|have|last|work)|needs? (?:to|more|better)|would be.{0,40}\\bif\\b|希望|应该|期待|改进|需要更"
+          ],
+          "exclude": [],
+          "description": "明确诉求或改进措辞与充电性能同时出现。"
+        },
+        {
+          "id": "unmet_4",
+          "label": "更长使用寿命",
+          "all_of": [
+            "\\blast|\\bdurab|\\bsturdy|\\bbreak|\\bbroke|\\bcrack|寿命|耐用|结实|断裂|开裂",
+            "\\bwish\\b|\\bhope\\b|would prefer|would like|could be|should (?:be|have|last|work)|needs? (?:to|more|better)|would be.{0,40}\\bif\\b|希望|应该|期待|改进|需要更"
+          ],
+          "exclude": [],
+          "description": "明确诉求或改进措辞与耐用性、寿命或断裂问题同时出现。"
+        },
+        {
+          "id": "unmet_5",
+          "label": "更好抗指纹能力",
+          "all_of": [
+            "fingerprint|smudge|指纹|污渍|污迹",
+            "\\bwish\\b|\\bhope\\b|would prefer|would like|could be|should (?:be|have|last|work)|needs? (?:to|more|better)|would be.{0,40}\\bif\\b|希望|应该|期待|改进|需要更"
+          ],
+          "exclude": [],
+          "description": "明确诉求或改进措辞与指纹或污渍同时出现。"
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "title": "人群特征",
+      "color": "#7794ff",
+      "population": "text",
+      "rules": [
+        {
+          "id": "people_1",
+          "label": "青少年相关提及",
+          "all_of": [
+            "\\bteen(?:ager|age|s)?\\b|青少年"
+          ],
+          "exclude": [],
+          "description": "仅统计评论中明确出现的青少年相关词，不推断评论者年龄。"
+        },
+        {
+          "id": "people_2",
+          "label": "学生相关提及",
+          "all_of": [
+            "\\bstudent|\\bschool|\\bcollege|\\buniversity|学生|学校|大学"
+          ],
+          "exclude": [],
+          "description": "仅统计学生、学校或大学相关词，可能指购买者或礼物接收者。"
+        },
+        {
+          "id": "people_3",
+          "label": "子女相关提及",
+          "all_of": [
+            "\\bson\\b|\\bdaughter\\b|\\bkid(?:s)?\\b|\\bchild(?:ren)?\\b|儿子|女儿|孩子|子女"
+          ],
+          "exclude": [],
+          "description": "统计评论中明确提到的子女或孩子，不等同于购买者的人口属性。"
+        }
+      ]
+    },
+    {
+      "id": "time",
+      "title": "使用时刻",
+      "color": "#7794ff",
+      "population": "text",
+      "rules": [
+        {
+          "id": "time_1",
+          "label": "日常使用",
+          "all_of": [
+            "every\\s?day|daily|day.to.day|每天|日常"
+          ],
+          "exclude": [],
+          "description": "评论明确提到每天或日常使用。"
+        },
+        {
+          "id": "time_2",
+          "label": "手机跌落时",
+          "all_of": [
+            "\\bdrop(?:ped|s|ping)?\\b|\\bfall|\\bfell\\b|跌落|摔|掉落"
+          ],
+          "exclude": [],
+          "description": "评论提到手机跌落或摔落时的使用情境。"
+        },
+        {
+          "id": "time_3",
+          "label": "充电时",
+          "all_of": [
+            "charg|充电"
+          ],
+          "exclude": [],
+          "description": "评论提到充电行为。"
+        }
+      ]
+    },
+    {
+      "id": "place",
+      "title": "使用地点",
+      "color": "#7794ff",
+      "population": "text",
+      "rules": [
+        {
+          "id": "place_1",
+          "label": "汽车",
+          "all_of": [
+            "\\bcar\\b|\\bvehicle|dashboard|车载|汽车"
+          ],
+          "exclude": [],
+          "description": "评论明确提到汽车或车载场景。"
+        },
+        {
+          "id": "place_2",
+          "label": "家中",
+          "all_of": [
+            "\\bhome\\b|\\bhouse\\b|家里|家中|在家"
+          ],
+          "exclude": [],
+          "description": "评论明确提到家庭使用地点。"
+        },
+        {
+          "id": "place_3",
+          "label": "工作场所",
+          "all_of": [
+            "at work|\\boffice\\b|workplace|工作场所|办公室|上班"
+          ],
+          "exclude": [],
+          "description": "评论明确提到办公室、工作场所或上班情境。"
+        }
+      ]
+    },
+    {
+      "id": "behavior",
+      "title": "行为",
+      "color": "#7794ff",
+      "population": "text",
+      "rules": [
+        {
+          "id": "behavior_1",
+          "label": "使用磁性配件",
+          "all_of": [
+            "mag\\s?safe|magnet|磁铁|磁力|磁性|磁吸|吸力"
+          ],
+          "exclude": [],
+          "description": "评论明确提到磁性功能或 MagSafe 配件。"
+        },
+        {
+          "id": "behavior_2",
+          "label": "保护手机",
+          "all_of": [
+            "protect|防护|保护"
+          ],
+          "exclude": [],
+          "description": "评论出现保护或防护用途词。"
+        },
+        {
+          "id": "behavior_3",
+          "label": "握持手机",
+          "all_of": [
+            "\\bhold|\\bgrip|\\bhand\\b|握持|抓握|手中|手持"
+          ],
+          "exclude": [],
+          "description": "评论提到握持、抓握或拿在手中的情境。"
+        }
+      ]
+    }
+  ]
+}

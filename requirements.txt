@@ -1,0 +1,6 @@
+# Tested with Python 3.12.14. Analysis and chart Python dependencies only.
+# PNG rendering also requires Node.js, sharp, and Chinese fonts; see README.md.
+pandas==2.2.3
+numpy==2.3.5
+openpyxl==3.1.5
+reportlab==4.4.9

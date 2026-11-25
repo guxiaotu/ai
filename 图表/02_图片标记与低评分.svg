@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1000" height="500" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>02_图片标记与低评分</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1000" height="500"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-500)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1000" height="500" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="38" y="460" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-weight: 700; font-size: 28px;fill: rgb(9%,12%,17%); stroke:none;" transform="translate(0,920) scale(1,-1)">图片标记与低评分比例</text>
+			<text x="38" y="428" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 18px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,856) scale(1,-1)">两组相差 33.24 个百分点（差值 95% 区间：24.95—40.89）</text>
+			<path d="M 265,110 L 265,360 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="251.9921875" y="82" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 18px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,164) scale(1,-1)">0%</text>
+			<path d="M 398,110 L 398,360 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="379.98681640625" y="82" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 18px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,164) scale(1,-1)">20%</text>
+			<path d="M 531,110 L 531,360 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="512.98681640625" y="82" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 18px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,164) scale(1,-1)">40%</text>
+			<path d="M 664,110 L 664,360 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="645.98681640625" y="82" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 18px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,164) scale(1,-1)">60%</text>
+			<path d="M 797,110 L 797,360 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="778.98681640625" y="82" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 18px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,164) scale(1,-1)">80%</text>
+			<path d="M 930,110 L 930,360 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="906.9814453125" y="82" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 18px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,164) scale(1,-1)">100%</text>
+			<path d="M 265,110 L 930,110 Z" style="stroke: rgb(32%,38%,44%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="42" y="309" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-weight: 700; font-size: 24px;fill: rgb(9%,12%,17%); stroke:none;" transform="translate(0,618) scale(1,-1)">有图片标记</text>
+			<text x="42" y="280" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 18px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,560) scale(1,-1)">99 / 157 条低评分</text>
+			<path d="M 632.611644,305 L 731.903108,305 Z" style="stroke: rgb(78%,40%,13%); stroke-linecap: butt; stroke-width: 3.4;"/>
+			<path d="M 632.611644,296 L 632.611644,314 Z" style="stroke: rgb(78%,40%,13%); stroke-linecap: butt; stroke-width: 3.4;"/>
+			<path d="M 731.903108,296 L 731.903108,314 Z" style="stroke: rgb(78%,40%,13%); stroke-linecap: butt; stroke-width: 3.4;"/>
+			<circle cx="684.3312101910828" cy="305" r="7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(78%,40%,13%); fill-rule: evenodd;"/>
+			<text x="643.6319914410828" y="332" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-weight: 700; font-size: 24px;fill: rgb(9%,12%,17%); stroke:none;" transform="translate(0,664) scale(1,-1)">63.06%</text>
+			<text x="579.4383879254578" y="269" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 17px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,538) scale(1,-1)">95% 区间 55.28%—70.21%</text>
+			<text x="42" y="187" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-weight: 700; font-size: 24px;fill: rgb(9%,12%,17%); stroke:none;" transform="translate(0,374) scale(1,-1)">未标记图片</text>
+			<text x="42" y="158" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 18px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,316) scale(1,-1)">308 / 1,033 条低评分</text>
+			<path d="M 445.251034,183 L 482.297276,183 Z" style="stroke: rgb(14%,38%,65%); stroke-linecap: butt; stroke-width: 3.4;"/>
+			<path d="M 445.251034,174 L 445.251034,192 Z" style="stroke: rgb(14%,38%,65%); stroke-linecap: butt; stroke-width: 3.4;"/>
+			<path d="M 482.297276,174 L 482.297276,192 Z" style="stroke: rgb(14%,38%,65%); stroke-linecap: butt; stroke-width: 3.4;"/>
+			<circle cx="463.27686350435624" cy="183" r="7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(14%,38%,65%); fill-rule: evenodd;"/>
+			<text x="422.57764475435624" y="210" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-weight: 700; font-size: 24px;fill: rgb(9%,12%,17%); stroke:none;" transform="translate(0,420) scale(1,-1)">29.82%</text>
+			<text x="358.38404123873124" y="147" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 17px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,294) scale(1,-1)">95% 区间 27.11%—32.68%</text>
+			<path d="M 38,53 L 962,53 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="38" y="30" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 15px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,60) scale(1,-1)">点为低评分比例，横线为 Wilson 95% 区间；低评分为 1—2 星。</text>
+			<text x="38" y="10" style="font-family: 'PingFang SC', 'Heiti SC', 'Hiragino Sans GB', sans-serif; font-size: 15px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,20) scale(1,-1)">空白仅记为“未标记图片”；区间基于独立观测假设，关联不代表因果。</text>
+		</g>
+	</g>
+</svg>

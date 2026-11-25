@@ -1,0 +1,816 @@
+{
+  "quality": {
+    "source_filename": "卖家评论.xlsx",
+    "source_sha256": "41056a105e52b535b5fdcf0682eac56aef53c9cd32abea487248ba2032260935",
+    "sheet": "B0FH655984-Review(1190)",
+    "raw_n": 1190,
+    "analysis_n": 1190,
+    "duplicate_ids_removed": 0,
+    "start": "2026-06-02",
+    "end": "2026-09-11",
+    "original_missing": {
+      "型号": 0,
+      "VP评论": 13,
+      "Vine评论": 1190,
+      "标题": 0,
+      "标题 (翻译)": 29,
+      "内容": 0,
+      "内容(翻译)": 29,
+      "星级": 0,
+      "赞同数": 1094,
+      "图片数量": 1033,
+      "是否有视频": 1183,
+      "链接": 0,
+      "评论时间": 0
+    },
+    "raw_model_count": 302,
+    "size_count": 24,
+    "normalized_duplicate_body_rows": 27,
+    "asin_parameters": {
+      "null": 187,
+      "B0FH655984": 50,
+      "B0D9VS4PV7": 46,
+      "B0DH22XH5Y": 34,
+      "B0DW92LBH6": 31,
+      "B0DH232C6S": 29,
+      "B0FH65ZLHV": 28,
+      "B0FH67STX8": 28,
+      "B0D9VRKZ1D": 27,
+      "B0DKCF6J6Q": 24,
+      "B0DPQDZC4P": 23,
+      "B0CJDVRD41": 22,
+      "B0DPMMMLP7": 21,
+      "B0D4XZY4K6": 19,
+      "B0DPMMXSQ5": 19,
+      "B0D9LFY675": 18,
+      "B0DG5S6DPK": 17,
+      "B0DFYJ5RLG": 14,
+      "B0DTJSYC9M": 13,
+      "B0D5CS5699": 12,
+      "B0D9LFTFF5": 11,
+      "B0F43DLXJH": 11,
+      "B0FXFYGBST": 11,
+      "B0DQKT8L3B": 10,
+      "B0D4YW94D2": 10,
+      "B0G3NWMB59": 7,
+      "B0FH6671RW": 7,
+      "B0G3NVZLVJ": 6,
+      "B0FH66G9YZ": 6,
+      "B0D1QY22TQ": 6,
+      "B0GFN5854S": 6,
+      "B0FH67RZ19": 6,
+      "B0FGJBT12F": 5,
+      "B0FGJ9FXYH": 5,
+      "B0DPMLC3J8": 5,
+      "B0FHQ6P6Z4": 5,
+      "B0FHQ5S3LM": 4,
+      "B0D9VR2VZG": 4,
+      "B0F8BM598L": 4,
+      "B0FHQ4ZJM8": 4,
+      "B0GFMQPX9F": 4,
+      "B0F2M14DR3": 4,
+      "B0DKCBRJ1V": 4,
+      "B0GFN7BNL5": 4,
+      "B0DYTMMFBS": 4,
+      "B0G2576T4D": 4,
+      "B0G253Y23X": 4,
+      "B0G256CXT2": 4,
+      "B0F2M449JF": 4,
+      "B0DYP4QKHM": 4,
+      "B0G257K647": 4,
+      "B0FHQ5FYC9": 3,
+      "B0G256HDK9": 3,
+      "B0DPMMJBHB": 3,
+      "B0DPMLQ285": 3,
+      "B0F2M8L7LK": 3,
+      "B0DW93Q7VY": 3,
+      "B0F2LT8NJW": 3,
+      "B0DTJTVQRJ": 3,
+      "B0F2LQRYPN": 3,
+      "B0FPLXFHJB": 3,
+      "B0FH65CC2J": 3,
+      "B0FH662KF4": 3,
+      "B0F8BMHSYZ": 3,
+      "B0FLCF1YFD": 3,
+      "B0FH1QBNB1": 3,
+      "B0FGJ3JFXQ": 3,
+      "B0FMRLXY5F": 3,
+      "B0FMX2N431": 3,
+      "B0GFN7LBDZ": 3,
+      "B0G3NYCHFZ": 3,
+      "B0FBRSFWMT": 3,
+      "B0DH1VG3YN": 3,
+      "B0F2M928T4": 3,
+      "B0GFNDYQRB": 3,
+      "B0FDKNN19S": 3,
+      "B0DW8ZLBDK": 3,
+      "B0FH67HL4X": 3,
+      "B0FH66DV28": 3,
+      "B0G253KX8M": 3,
+      "B0D5CRYV6J": 2,
+      "B0DP62QBTM": 2,
+      "B0FGJ835QT": 2,
+      "B0FH677JCG": 2,
+      "B0G2556T47": 2,
+      "B0G4ZQKLW4": 2,
+      "B0DHS85GMJ": 2,
+      "B0GFNB99TV": 2,
+      "B0DP652VX6": 2,
+      "B0FH65ZZW3": 2,
+      "B0FGJ6ZN8J": 2,
+      "B0F2MKCLQ8": 2,
+      "B0FBRWGFVT": 2,
+      "B0D4Y768KR": 2,
+      "B0FGJ94RKN": 2,
+      "B0G253FJW9": 2,
+      "B0FHQ6MDFC": 2,
+      "B0DP64TK4L": 2,
+      "B0FHQ3GCHF": 2,
+      "B0F8BPDZRQ": 2,
+      "B0DYP43WQ9": 2,
+      "B0F2M4Y2S1": 2,
+      "B0DG5VN9C2": 2,
+      "B0DH1WXNQ1": 2,
+      "B0DPMNFYQJ": 2,
+      "B0FGJBRJ2Q": 2,
+      "B0D9LJ1TKF": 2,
+      "B0DPQBCY1L": 2,
+      "B0FH669X8M": 2,
+      "B0FH681BY2": 2,
+      "B0DJCW3QG1": 2,
+      "B0F2MCH6FR": 2,
+      "B0F9XXDMDR": 2,
+      "B0DTJSZ9F9": 2,
+      "B0FNMJ9MQ2": 2,
+      "B0DJCXFPML": 2,
+      "B0DZ6BTD7Z": 2,
+      "B0DKCDHW49": 2,
+      "B0F2LQN3JY": 2,
+      "B0DR9216SS": 2,
+      "B0FP57VDSR": 2,
+      "B0D9VSPK2Z": 2,
+      "B0DH25PMDG": 2,
+      "B0DZX2WRW1": 2,
+      "B0F2M3LQSR": 2,
+      "B0G3NWQTYQ": 2,
+      "B0FGJBV8VL": 2,
+      "B0FH65JK1P": 2,
+      "B0FH67VZXY": 2,
+      "B0DFYJZ8DM": 2,
+      "B0F9XX5F61": 2,
+      "B0G3NWXF46": 2,
+      "B0DPMKR8LK": 2,
+      "B0FH67FRHG": 2,
+      "B0DYP38FXG": 2,
+      "B0DH27MWLW": 2,
+      "B0G257WNXW": 2,
+      "B0FL1WXCLK": 2,
+      "B0G255M7B3": 2,
+      "B0FH66L8LS": 2,
+      "B0DPWTYBYV": 2,
+      "B0DH263XCV": 2,
+      "B0D5CSB6VP": 2,
+      "B0FH66FCQ1": 2,
+      "B0D9VSCC2L": 2,
+      "B0DYNYDW38": 1,
+      "B0F43BHHXG": 1,
+      "B0DZ6BTYND": 1,
+      "B0DFYH6WNJ": 1,
+      "B0FH1PYVYH": 1,
+      "B0FH1PZDF6": 1,
+      "B0DYP133G4": 1,
+      "B0DFYMQXWQ": 1,
+      "B0DG5S3MZF": 1,
+      "B0F437XBWG": 1,
+      "B0DW8ZSFN3": 1,
+      "B0DYP38JG6": 1,
+      "B0F2M4WP15": 1,
+      "B0FP54Y1CR": 1,
+      "B0F2MHN8NG": 1,
+      "B0GFN5SRZJ": 1,
+      "B0F8BNCLKC": 1,
+      "B0FH67167W": 1,
+      "B0FGJ89HCW": 1,
+      "B0DPX72CYS": 1,
+      "B0G255Q2ZF": 1,
+      "B0GFNHTHQT": 1,
+      "B0FBRSH7L1": 1,
+      "B0DP64R3BH": 1,
+      "B0DZ6B8CKW": 1,
+      "B0F43F8FL6": 1,
+      "B0FHQ5TNLL": 1,
+      "B0G3NYZ8GV": 1,
+      "B0F2M262CB": 1,
+      "B0DPMKQ6M9": 1,
+      "B0D9LGPZM6": 1,
+      "B0GFMZ3XKF": 1,
+      "B0GFN2RGGR": 1,
+      "B0GFMQQ425": 1,
+      "B0DQKT9VHW": 1,
+      "B0DKCF328K": 1,
+      "B0GFNB2P3C": 1,
+      "B0GFN8BKNT": 1,
+      "B0GFN7RM9V": 1,
+      "B0GFMSMF2X": 1,
+      "B0FGJC75VR": 1,
+      "B0DYP3NP4N": 1,
+      "B0FH1T9Q2H": 1,
+      "B0FH1TFL6V": 1,
+      "B0F2M5Y2J7": 1,
+      "B0GF15KCF3": 1,
+      "B0G3NYYHSX": 1,
+      "B0GFN3T332": 1,
+      "B0GFMZZ9CH": 1,
+      "B0F2M8YGLR": 1,
+      "B0DYP43B9C": 1,
+      "B0DTJT9LJS": 1,
+      "B0FGJ96TDV": 1,
+      "B0DYNWLT4W": 1,
+      "B0DW8ZSFMW": 1,
+      "B0FH679SF5": 1,
+      "B0DZ67PCQ7": 1,
+      "B0DFYJVSNY": 1,
+      "B0DYNYS5LY": 1,
+      "B0DPX6DPJD": 1,
+      "B0DP62SLXZ": 1,
+      "B0FZ8YFK1W": 1,
+      "B0D3PNQ27C": 1,
+      "B0DTJRJYKQ": 1,
+      "B0GFN9VKCC": 1,
+      "B0FGJBQ72F": 1,
+      "B0FH66VG17": 1,
+      "B0GFN62B3Z": 1,
+      "B0F2LY8X7Y": 1,
+      "B0FGJ8CF9D": 1,
+      "B0DPQDSVLC": 1,
+      "B0DZ6BMWYK": 1,
+      "B0DYV1XB74": 1,
+      "B0FLCZ8DFK": 1,
+      "B0DZ69PSGV": 1,
+      "B0DPQCQQ58": 1,
+      "B0G259CZNP": 1,
+      "B0FHQ28RYG": 1,
+      "B0DZ6B34BP": 1,
+      "B0DZ6B836Z": 1,
+      "B0GFMSL5QW": 1,
+      "B0GFMYV4R8": 1,
+      "B0DPQDQBL4": 1,
+      "B0FDKMSZZ5": 1,
+      "B0DQKRTXD1": 1,
+      "B0DH21DVZW": 1,
+      "B0F2LWKPTN": 1,
+      "B0G5118946": 1,
+      "B0DJCWPQMM": 1,
+      "B0FBRVDD8L": 1,
+      "B0DYNYM2B3": 1,
+      "B0FH1TGQNX": 1,
+      "B0DTJSZ4H3": 1,
+      "B0G254C2XV": 1,
+      "B0G3NTY3SQ": 1,
+      "B0FBRWG4RV": 1,
+      "B0FWJ5FQVQ": 1,
+      "B0FGJDS6DB": 1,
+      "B0F2M2W4GC": 1,
+      "B0FWHS9MFC": 1,
+      "B0DYP2MG69": 1,
+      "B0G255BGYV": 1,
+      "B0G257S4HT": 1,
+      "B0DYP2TVMT": 1,
+      "B0DYNZMG7Q": 1,
+      "B0F43BLN46": 1,
+      "B0DP629PLV": 1,
+      "B0FGJ8W7GY": 1,
+      "B0D9VQR8Q3": 1,
+      "B0DYNYLZ7M": 1,
+      "B0G254VZK3": 1,
+      "B0D4YRTYP7": 1,
+      "B0FGJC6583": 1,
+      "B0FH67VZY1": 1,
+      "B0F2M8R354": 1,
+      "B0FGJ9KVBH": 1,
+      "B0CH7VMQDJ": 1,
+      "B0FGJ8V5B7": 1,
+      "B0GFMT1K1J": 1,
+      "B0GFN82RC1": 1,
+      "B0F2M123H2": 1,
+      "B0GFN24NGZ": 1,
+      "B0F2M16MY9": 1,
+      "B0DW8ZHFT9": 1,
+      "B0FH65WBZF": 1,
+      "B0DPML3V93": 1,
+      "B0D4YV6W6P": 1,
+      "B0FGJ9KBK1": 1,
+      "B0GFNCR1M9": 1,
+      "B0FHQ38P91": 1,
+      "B0FBRWZ6JX": 1,
+      "B0FGJBWJGZ": 1,
+      "B0DMNLBV3Q": 1,
+      "B0DJCWRCRB": 1
+    }
+  },
+  "overall": {
+    "low_n": 407,
+    "n": 1190,
+    "rate": 0.3420168067226891,
+    "wilson95": [
+      0.31561083671063267,
+      0.36943947108197656
+    ]
+  },
+  "stars": [
+    {
+      "star": 1,
+      "count": 240,
+      "share": 0.20168067226890757
+    },
+    {
+      "star": 2,
+      "count": 167,
+      "share": 0.1403361344537815
+    },
+    {
+      "star": 3,
+      "count": 182,
+      "share": 0.15294117647058825
+    },
+    {
+      "star": 4,
+      "count": 161,
+      "share": 0.13529411764705881
+    },
+    {
+      "star": 5,
+      "count": 440,
+      "share": 0.3697478991596639
+    }
+  ],
+  "main": {
+    "n": 1190,
+    "table": [
+      [
+        99,
+        58
+      ],
+      [
+        308,
+        725
+      ]
+    ],
+    "estimable": true,
+    "image_rate": 0.6305732484076433,
+    "unmarked_rate": 0.29816069699903197,
+    "image_wilson95": [
+      0.5527994644956893,
+      0.7021099369771409
+    ],
+    "unmarked_wilson95": [
+      0.2710541865094823,
+      0.32676282162376047
+    ],
+    "difference": 0.3324125514086113,
+    "difference_newcombe95": [
+      0.2495461348272735,
+      0.4089126214896861
+    ],
+    "fisher_p": 2.5583561958325046e-15,
+    "pearson_chi2": 66.91840662040623,
+    "pearson_df": 1,
+    "pearson_p": 2.829803339542621e-16,
+    "minimum_expected": 53.69663865546219,
+    "ratio": 2.114877161055505,
+    "ratio_log95": [
+      1.8167488208345115,
+      2.4619283387230624
+    ],
+    "odds_ratio": 4.017857142857143,
+    "odds_ratio_log95": [
+      2.8301014545908596,
+      5.704097990629082
+    ]
+  },
+  "monthly": {
+    "2026-06": {
+      "n": 90,
+      "table": [
+        [
+          8,
+          5
+        ],
+        [
+          31,
+          46
+        ]
+      ],
+      "estimable": true,
+      "image_rate": 0.6153846153846154,
+      "unmarked_rate": 0.4025974025974026,
+      "image_wilson95": [
+        0.35522891512665694,
+        0.8229029220223743
+      ],
+      "unmarked_wilson95": [
+        0.3002201729682805,
+        0.5142314683205053
+      ],
+      "difference": 0.2127872127872128,
+      "difference_newcombe95": [
+        -0.07030844773512501,
+        0.44418501903510466
+      ],
+      "fisher_p": 0.22623940341522125,
+      "pearson_chi2": 2.05084508251929,
+      "pearson_df": 1,
+      "pearson_p": 0.1521217311806756,
+      "minimum_expected": 5.633333333333334,
+      "ratio": 1.5285359801488834,
+      "ratio_log95": [
+        0.9191284242197882,
+        2.5419975936366064
+      ],
+      "odds_ratio": 2.3741935483870966,
+      "odds_ratio_log95": [
+        0.7103838162463701,
+        7.934858419195745
+      ]
+    },
+    "2026-07": {
+      "n": 453,
+      "table": [
+        [
+          44,
+          23
+        ],
+        [
+          125,
+          261
+        ]
+      ],
+      "estimable": true,
+      "image_rate": 0.6567164179104478,
+      "unmarked_rate": 0.3238341968911917,
+      "image_wilson95": [
+        0.5373266459034898,
+        0.7591099372723709
+      ],
+      "unmarked_wilson95": [
+        0.279087016106674,
+        0.37205321815313935
+      ],
+      "difference": 0.3328822210192561,
+      "difference_newcombe95": [
+        0.20412278768975758,
+        0.4446263170399534
+      ],
+      "fisher_p": 4.4433600832579983e-07,
+      "pearson_chi2": 27.04808145391102,
+      "pearson_df": 1,
+      "pearson_p": 1.984570971517788e-07,
+      "minimum_expected": 24.995584988962474,
+      "ratio": 2.027940298507463,
+      "ratio_log95": [
+        1.6188923732288065,
+        2.540342966783061
+      ],
+      "odds_ratio": 3.9944347826086957,
+      "odds_ratio_log95": [
+        2.3103159593849814,
+        6.906202230781291
+      ]
+    },
+    "2026-08": {
+      "n": 536,
+      "table": [
+        [
+          42,
+          29
+        ],
+        [
+          133,
+          332
+        ]
+      ],
+      "estimable": true,
+      "image_rate": 0.5915492957746479,
+      "unmarked_rate": 0.2860215053763441,
+      "image_wilson95": [
+        0.4753878184942342,
+        0.6983126973007013
+      ],
+      "unmarked_wilson95": [
+        0.246832129061883,
+        0.32871735305824146
+      ],
+      "difference": 0.3055277903983038,
+      "difference_newcombe95": [
+        0.18176824849044185,
+        0.4192565515861834
+      ],
+      "fisher_p": 1.0691432734689778e-06,
+      "pearson_chi2": 26.14762688495073,
+      "pearson_df": 1,
+      "pearson_p": 3.162855817584501e-07,
+      "minimum_expected": 23.18097014925373,
+      "ratio": 2.0681986656782803,
+      "ratio_log95": [
+        1.625616682546398,
+        2.631275728551914
+      ],
+      "odds_ratio": 3.6152450090744104,
+      "odds_ratio_log95": [
+        2.1618827694656213,
+        6.045654584160503
+      ]
+    },
+    "2026-09": {
+      "n": 111,
+      "table": [
+        [
+          5,
+          1
+        ],
+        [
+          19,
+          86
+        ]
+      ],
+      "estimable": true,
+      "image_rate": 0.8333333333333334,
+      "unmarked_rate": 0.18095238095238095,
+      "image_wilson95": [
+        0.4364971778135298,
+        0.9699466302516933
+      ],
+      "unmarked_wilson95": [
+        0.11901666335076501,
+        0.26540908097542887
+      ],
+      "difference": 0.6523809523809524,
+      "difference_newcombe95": [
+        0.24665707028067374,
+        0.8023783723912015
+      ],
+      "fisher_p": 0.0016925938312551722,
+      "pearson_chi2": 14.253961412151066,
+      "pearson_df": 1,
+      "pearson_p": 0.00015972426255525993,
+      "minimum_expected": 1.2972972972972974,
+      "ratio": 4.605263157894737,
+      "ratio_log95": [
+        2.6786402126002185,
+        7.9176175485229034
+      ],
+      "odds_ratio": 22.63157894736842,
+      "odds_ratio_log95": [
+        2.4982152091045244,
+        205.02171461623644
+      ]
+    }
+  },
+  "sensitivity": {
+    "正文规范化去重": {
+      "n": 1163,
+      "table": [
+        [
+          99,
+          58
+        ],
+        [
+          307,
+          699
+        ]
+      ],
+      "estimable": true,
+      "image_rate": 0.6305732484076433,
+      "unmarked_rate": 0.305168986083499,
+      "image_wilson95": [
+        0.5527994644956893,
+        0.7021099369771409
+      ],
+      "unmarked_wilson95": [
+        0.2774996121146904,
+        0.334320642860994
+      ],
+      "difference": 0.32540426232414427,
+      "difference_newcombe95": [
+        0.24234656817810996,
+        0.40210557957042803
+      ],
+      "fisher_p": 1.508327135531638e-14,
+      "pearson_chi2": 63.28516391602757,
+      "pearson_df": 1,
+      "pearson_p": 1.7884628439165297e-15,
+      "minimum_expected": 54.808254514187446,
+      "ratio": 2.0663084296354692,
+      "ratio_log95": [
+        1.7753726128269072,
+        2.404920801151771
+      ],
+      "odds_ratio": 3.8863866112546335,
+      "odds_ratio_log95": [
+        2.7365682776867652,
+        5.519321778043398
+      ]
+    },
+    "低评分改为仅1星": {
+      "n": 1190,
+      "table": [
+        [
+          58,
+          99
+        ],
+        [
+          182,
+          851
+        ]
+      ],
+      "estimable": true,
+      "image_rate": 0.36942675159235666,
+      "unmarked_rate": 0.17618586640851888,
+      "image_wilson95": [
+        0.29789006302285903,
+        0.4472005355043106
+      ],
+      "unmarked_wilson95": [
+        0.15416503604403323,
+        0.20060613527764395
+      ],
+      "difference": 0.19324088518383778,
+      "difference_newcombe95": [
+        0.11765089019025644,
+        0.2740720575984747
+      ],
+      "fisher_p": 1.7151673584252568e-07,
+      "pearson_chi2": 31.60895402007525,
+      "pearson_df": 1,
+      "pearson_p": 1.885581640070979e-08,
+      "minimum_expected": 31.66386554621849,
+      "ratio": 2.09680128788409,
+      "ratio_log95": [
+        1.6441120614950782,
+        2.6741338037957942
+      ],
+      "odds_ratio": 2.739371739371739,
+      "odds_ratio_log95": [
+        1.9084004290539736,
+        3.9321713683477246
+      ]
+    },
+    "排除3星后比较": {
+      "n": 1008,
+      "table": [
+        [
+          99,
+          30
+        ],
+        [
+          308,
+          571
+        ]
+      ],
+      "estimable": true,
+      "image_rate": 0.7674418604651163,
+      "unmarked_rate": 0.3503981797497156,
+      "image_wilson95": [
+        0.6874524259666839,
+        0.8319637308005674
+      ],
+      "unmarked_wilson95": [
+        0.3195713497197111,
+        0.38252691789980336
+      ],
+      "difference": 0.4170436807154007,
+      "difference_newcombe95": [
+        0.3308429530705837,
+        0.48855147890051864
+      ],
+      "fisher_p": 3.471818093052679e-19,
+      "pearson_chi2": 81.27057380324106,
+      "pearson_df": 1,
+      "pearson_p": 1.9683571953707184e-19,
+      "minimum_expected": 52.086309523809526,
+      "ratio": 2.1901993355481726,
+      "ratio_log95": [
+        1.9215395314703083,
+        2.4964217758065828
+      ],
+      "odds_ratio": 6.117857142857143,
+      "odds_ratio_log95": [
+        3.974406674986431,
+        9.417299003639567
+      ]
+    },
+    "仅分析7月与8月记录": {
+      "n": 989,
+      "table": [
+        [
+          86,
+          52
+        ],
+        [
+          258,
+          593
+        ]
+      ],
+      "estimable": true,
+      "image_rate": 0.6231884057971014,
+      "unmarked_rate": 0.30317273795534666,
+      "image_wilson95": [
+        0.540034640386027,
+        0.6996696060499912
+      ],
+      "unmarked_wilson95": [
+        0.2732330339313236,
+        0.33488143391145886
+      ],
+      "difference": 0.3200156678417548,
+      "difference_newcombe95": [
+        0.23102134161093732,
+        0.40214824279937267
+      ],
+      "fisher_p": 1.1544397443268253e-12,
+      "pearson_chi2": 53.607957957957964,
+      "pearson_df": 1,
+      "pearson_p": 2.4476593249760965e-13,
+      "minimum_expected": 48.0,
+      "ratio": 2.0555555555555554,
+      "ratio_log95": [
+        1.742988807063079,
+        2.4241742831928543
+      ],
+      "odds_ratio": 3.801282051282051,
+      "odds_ratio_log95": [
+        2.6150764122590435,
+        5.525553733596875
+      ]
+    },
+    "按月分层": {
+      "informative_strata": 4,
+      "common_odds_ratio": 3.843559965152765,
+      "cmh_chi2_no_correction": 62.78665466761489,
+      "cmh_p": 2.303543965958696e-15
+    },
+    "按手机型号分层": {
+      "informative_strata": 23,
+      "common_odds_ratio": 3.863507410716892,
+      "cmh_chi2_no_correction": 58.6236056710532,
+      "cmh_p": 1.909121362835989e-14
+    }
+  },
+  "negative_themes": [
+    {
+      "group": "negative",
+      "rule_id": "negative_4",
+      "topic": "做工与耐用性",
+      "count": 107,
+      "denominator": 407,
+      "share": 0.2628992628992629
+    },
+    {
+      "group": "negative",
+      "rule_id": "negative_1",
+      "topic": "磁性部件脱落",
+      "count": 37,
+      "denominator": 407,
+      "share": 0.09090909090909091
+    },
+    {
+      "group": "negative",
+      "rule_id": "negative_2",
+      "topic": "充电问题",
+      "count": 29,
+      "denominator": 407,
+      "share": 0.07125307125307126
+    },
+    {
+      "group": "negative",
+      "rule_id": "negative_5",
+      "topic": "颜色不符",
+      "count": 28,
+      "denominator": 407,
+      "share": 0.0687960687960688
+    },
+    {
+      "group": "negative",
+      "rule_id": "negative_3",
+      "topic": "表面打滑",
+      "count": 15,
+      "denominator": 407,
+      "share": 0.036855036855036855
+    }
+  ],
+  "negative_covered_reviews": 183,
+  "negative_uncovered_reviews": 224,
+  "theme_evidence_rows": 2255,
+  "rules_sha256": "00f3fcc7356801df0c41778ef44ae7ea4fcf24e158c1441c9530c202f29282a3",
+  "environment": {
+    "python": "3.12.14",
+    "pandas": "2.2.3",
+    "numpy": "2.3.5"
+  },
+  "notes": [
+    "Observational convenience export, not random sampling.",
+    "Image missing means unmarked, not confirmed no-image.",
+    "Exploratory hypotheses chosen after inspecting the dataset.",
+    "No human gold-standard topic labels available."
+  ]
+}
