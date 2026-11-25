@@ -1,8 +1,11 @@
 [project]
 name = "ai"
 version = "0.1.0"
-requires-python = ">=3.12"
+requires-python = ">=3.14"
 dependencies = [
+    "ipykernel>=7.4.0",
+    "ipython>=9.19.1",
+    "matplotlib>=3.11.2",
     "pandas>=3.1.1",
     "reportlab>=5.1.1",
 ]
